@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,200;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./Imagenes/pngegg.png" type="image/png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Principal</title>
+</head>
+
+<body>
+    <style>
+        /* .header {
+            width: 100%;
+            background-image: url(./Imagenes/fondo-pantalla-regreso-escuela_23-2148621308.avif);
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-part-1 {
+            width: 800px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #0d47a1;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-template-rows: 90% 10%;
+        }
+        .imagen-header{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin-right: 10px;
+            border-right: 4px solid #e3f2fd;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .header-part-1 h4{
+            text-align: center;
+            align-self: center;
+            border-bottom: 3px solid white;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            color: white;
+            font-weight: bold;
+        }
+        .header-part-1 h3{
+            text-align: center;
+            align-self: center;
+            position: relative;
+            bottom: 20px;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            color: white;
+        }
+        .imagen-logo {
+            width: 90%;
+        } */
+
+        /* .nav {
+            background-color: chartreuse;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-nav {
+            width: 50px;
+            height: 50px;
+            border: 3px solid blue;
+            border-radius: 100%;
+            background-color: white;
+        }
+
+        .img-logo {
+            width: 100%;
+        }
+
+        .informacion-nav{
+            display: flex;
+            align-items: center;
+        }
+        .informacion-nav span {
+            margin-right: 15px;
+            font-size: 16px;
+        }
+        .icon-cuenta{
+            cursor: pointer;
+        } */
+
+        /* .descripcion {
+            height: 100%;
+            margin: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+        .slider .indicators .indicator-item.active{
+            background-color: blue;
+        }
+
+        .noticias {
+            width: 100%;
+            height: 400px;
+            background-color: chartreuse;
+        } */
+
+        /* .page-footer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0%;
+            background-color: #0d47a1;
+            padding: 0 0 10px 0;
+            display: grid;
+        }
+
+        .title-footer {
+            text-align: center;
+        }
+
+        .sub-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .div-escudo {
+            width: 300px;
+            height: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .div-escudo span {
+            font-size: 16px;
+        }
+
+        .imagen-escudo {
+            padding: 0 10px;
+            width: 50%;
+            height: 80%;
+        }
+
+        .informacion-instituto-footer {
+            width: 300px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid white;
+        }
+
+        .descripcion-footer {
+            border-left: 1px solid white;
+        } */
+        /* .card {
+            width: 300px;
+            border-radius: 8px;
+        } */
+    </style>
+    <div>
+        <header class=" row header">
+            <div class="header-part-1 col s6">
+                <div class="imagen-header">
+                    <img src="./Imagenes/pngegg.png" alt="" srcset="" class="imagen-logo">
+                </div>
+                <h2 class="flow-text">INSTITUTO SUPERIOR FUTUROS PROFESIONALES</h2>
+                <h4 class="flow-text">eslogan del instituto</h4>
+            </div>
+            <div class="diseno-header-1"></div>
+            <div class="diseno-header-2"></div>
+            <div class="header-part-2 col s6">
+                <div class="contenido-header">
+                    <div class="ubicacion-header">
+                        <i class="material-icons">location_on</i>
+                        <span>Ubicacion: Calle 0A #00 - 00</span>
+                    </div>
+                    <div class="telefono-header">
+                        <i class="material-icons">call</i>
+                        <span>Telefono: 000 000 0000</span>
+                    </div>
+                    <div class="email-header">
+                        <i class="material-icons">email</i>
+                        <span>Email: correo.institucional.superior@instituto.co</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="sub-container-pagina-principal">
+            <nav class="nav nav-wrapper blue darken-1">
+                <div class="logo-nav brand-logo">
+                    <img src="./Imagenes/logo.png" alt="" srcset="" class="img-logo responsive-img">
+                </div>
+                <ul class="right">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Organizacion estudiantil</a></li>
+                    <li><a href="">Horario</a></li>
+                    <li><a href="">Maestros</a></li>
+                    <li><a href="">Eventos</a></li>
+                    <li><a href="">Registro academico</a></li>
+                    <li><a href=""><i class="material-icons">account_circle</i></a></li>
+                </ul>
+            </nav>
+            <div class="descripcion">
+                <div class="imagenes-descripcion slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="https://i.pinimg.com/736x/b3/11/c0/b311c0e5b3e1a5bb6befff0f1b98f3de--welcome-back-to-school-google.jpg"
+                                alt="">
+                        </li>
+                        <li>
+                            <img src="https://static.guiainfantil.com/uploads/ocio/cuentoscolegio-p.jpg" alt="">
+                        <li>
+                            <img src="https://previews.123rf.com/images/anutaberg/anutaberg1708/anutaberg170800092/84256377-volver-al-concepto-de-escuela-para-banner-los-ni%C3%B1os-est%C3%A1n-parados-cerca-de-la-construcci%C3%B3n-de-la.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="noticias">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./Imagenes/fondo-pantalla-regreso-escuela_23-2148621308.avif">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Noticia uno</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Noticia uno<i
+                                    class="material-icons right">close</i></span>
+                            <p>Descripcion de la noticia uno</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./Imagenes/fondo-pantalla-regreso-escuela_23-2148621308.avif">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Noticia dos</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Noticia dos<i
+                                    class="material-icons right">close</i></span>
+                            <p>Descripcion de la noticia dos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./Imagenes/fondo-pantalla-regreso-escuela_23-2148621308.avif">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Noticia tres</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Noticia tres<i
+                                    class="material-icons right">close</i></span>
+                            <p>Descripcion de la noticia tres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="row page-footer footer">
+            <h6 class="title-footer">INSTITUTO SUPERIOR FUTUROS PROFESIONALES</h6>
+            <div class="sub-footer">
+                <div class="div-escudo col s2">
+                    <img src="./Imagenes/pngegg.png" alt="" srcset="" class="imagen-escudo">
+                    <span>Por un futuro mejor construido</span>
+                </div>
+                <div class="informacion-instituto-footer col s4">
+                    <span>Direccion: Calle 0G #00-00</span>
+                    <span>Telefono: 320 123 4567</span>
+                    <span>Correo electronico: instituto.superior@instituto.co</span>
+                    <span>Horario de atencion: 8:00 am - 6:00pm</span>
+                </div>
+                <div class="descripcion-footer col s4">
+                    <span>¿Cual es nuestro mayor objetivo?</span>
+                    <p>"aqui una breve descripcion del instituto"</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./materialize-v1.0.0/materialize/js/materialize.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        })
+
+        $(document).ready(function () {
+            $('.slider').slider();
+        })
+    </script>
+</body>
+
+</html>

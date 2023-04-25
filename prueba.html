@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .sub-c {
+            width: 600px;
+            /* background-color: aqua; */
+            display: grid;
+            grid-template-columns: 600px 10px;
+            grid-template-rows: 100px 50px 50px 100px;
+        }
+
+        .primero {
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            /* z-index: -1; */
+        }
+
+        .tercero{
+            /* background-color: yellowgreen; */
+            /* z-index: 2; */
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .uno, .dos, .tres {
+            width: 100px;
+            height: 100%;
+            background-color: red;
+        }
+
+        /* .dos {
+            width: 50px;
+            height: 100%;
+            background-color: red;
+        }
+
+        .tres {
+            width: 50px;
+            height: 100%;
+            background-color: red;
+        } */
+
+        .segundo {
+            background-color: rebeccapurple;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            /* z-index: -1; */
+        }
+    </style>
+    <div class="container">
+        <div class="sub-c">
+            <div class="primero">
+                <span>soy otro texto</span>
+            </div>
+            <div class="segundo">
+            </div>
+            <div class="tercero">
+                <div class="uno"></div>
+                <div class="dos"></div>
+                <div class="tres"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
